@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+html {
+  font-size: 67.5%;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+.nav_img img {
+  cursor: pointer;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+span {
+  color: #64bb47;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.Nav_left {
+  display: flex;
+  gap: 8rem;
+}
+.nav_links ul {
+  display: flex;
+  gap: 4rem;
+}
+.nav_links a {
+  color: #2c3847;
+  font-size: 2rem;
+}
+.nav_links a:hover {
+  color: #5fb848;
+}
+
+.Nav_right {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.nav_icon {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav_icon i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.Nav_right button {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 27px;
+  background: #494949;
+  padding: 14px 30px;
+}
+.Hero {
+  display: flex;
+  align-items: center;
+}
+.hero_text h1 {
+  color: #181d19;
+  font-family: Sharp Sans No1;
+  font-size: 7rem;
+  font-weight: 770;
+  max-width: 800px;
+  margin-bottom: 30px;
+  margin-top: 180px;
+}
+.hero_text p {
+  color: #181d19;
+  font-family: Sharp Sans No1;
+  font-size: 2.4rem;
+  font-weight: 750;
+  line-height: 34px;
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+.hero_text button {
+  text-align: center;
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  color: #fff;
+  border-radius: 50px;
+  background: #64bb47;
+  padding: 16px 40px;
+}
+.info {
+  margin-top: 50px;
+}
+.info_text h2 {
+  color: #151414;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 5.4rem;
+  margin-bottom: 15px;
+  font-weight: 770;
+}
+.info_text p {
+  color: #3b433e;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 2.4rem;
+  font-weight: 750;
+  margin-bottom: 102px;
+}
+.info_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+.info_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info_card h5 {
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 2.8rem;
+  color: #181d19;
+  margin-top: 36px;
+  margin-bottom: 18px;
+  font-weight: 770;
+}
+
+.info_card p {
+  color: #3b433e;
+  max-width: 270px;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 1.8rem;
+  font-weight: 750;
+  line-height: 28px;
+}
+.info_button {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  margin-bottom: 120px;
+}
+.infoo h4 {
+  color: #000;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 4.4rem;
+  font-weight: 780;
+}
+.infoo p {
+  color: #545454;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 2rem;
+  font-weight: 760;
+}
+.infoo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.About {
+  display: flex;
+  align-items: center;
+  gap: 9.5rem;
+  margin-bottom: 140px;
+}
+.About_left h2 {
+  color: #151414;
+  font-family: Sharp Sans No1;
+  font-size: 5.4rem;
+  margin-bottom: 30px;
+  font-weight: 770;
+}
+.About_left p {
+  font-family: Sharp Sans No1;
+  color: #181d19;
+  margin-bottom: 68px;
+  max-width: 500px;
+  font-size: 2.2rem;
+  font-weight: 750;
+  line-height: 34px;
+}
+.About_left button {
+  border-radius: 50px;
+  background: #64bb47;
+  text-align: center;
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  color: #fff;
+  padding: 16px 41px;
+}
+.Vegetables {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+.Vegetables_Text h4 {
+  color: #151414;
+  font-family: Sharp Sans No1;
+  font-size: 5.4rem;
+  font-weight: 770;
+  margin-bottom: 30px;
+  max-width: 428px;
+}
+.Vegetables_Text p {
+  font-family: Sharp Sans No1;
+  font-size: 2.2rem;
+  font-weight: 750;
+  line-height: 34px;
+  margin-bottom: 40px;
+  max-width: 514px;
+  color: #545454;
+}
+.Vegetables_Text button {
+  text-align: center;
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  border-radius: 50px;
+  background: #64bb47;
+  padding: 16px 41px;
+  color: #fff;
+}
+.Chef {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 100px;
+}
+.Chef_text h3 {
+  max-width: 366px;
+  color: #151414;
+  font-family: Sharp Sans No1;
+  font-size: 5.4rem;
+  font-weight: 770;
+  margin-bottom: 30px;
+}
+.Chef_text p {
+  font-family: Sharp Sans No1;
+  font-size: 2.2rem;
+  color: #545454;
+  font-weight: 750;
+  max-width: 500px;
+  line-height: 34px;
+}
+.Chef_cards {
+  margin-top: 30px;
+  margin-bottom: 177px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Chef_card {
+  display: flex;
+  gap: 1.7rem;
+}
+.Chef_card p {
+  font-family: Sharp Sans No1;
+  font-size: 2rem;
+  font-weight: 750;
+  color: #3b433e;
+}
+
+.Dishes_text h3 {
+  color: #151414;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 5.4rem;
+  margin-bottom: 15px;
+  font-weight: 770;
+}
+.Dishes_text p {
+  color: #3b433e;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 2.4rem;
+  font-weight: 750;
+  margin-bottom: 60px;
+}
+.Dishes_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.Dishes_card {
+  border-radius: 20px;
+  border: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 50px 30px;
+}
+.Dishes_card h5 {
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 3rem;
+  font-weight: 770;
+  margin-top: 27px;
+  margin-bottom: 20px;
+}
+.Dishes_card p {
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 1.8rem;
+  color: #545454;
+  font-weight: 750;
+  max-width: 293px;
+  line-height: 28px;
+}
+.Dishes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Dishes button {
+  border-radius: 50px;
+  background-color: #64bb47;
+  text-align: center;
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  color: #fff;
+  padding: 16px 63px;
+  margin-top: 60px;
+}
+
+.Thought_text h3 {
+  color: #151414;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 5.4rem;
+  margin-top: 190px;
+  margin-bottom: 47px;
+  font-weight: 770;
+}
+.Thought_Cards {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.Thought_Card {
+  border-radius: 20px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  padding: 40px 31px 50px 27px;
+  filter: drop-shadow(3px 15px 35px rgba(120, 125, 173, 0.06));
+}
+.Thought_Card_top {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.Thought_Card_text h5 {
+  font-family: Sharp Sans No1;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 770;
+  margin-bottom: 5px;
+}
+.Thought_Card_text p {
+  color: #888a9a;
+  font-family: Sharp Sans No1;
+  font-size: 1.4rem;
+  font-weight: 760;
+}
+.Thought_Card_button p {
+  font-family: Sharp Sans No1;
+  font-size: 1.8rem;
+  font-weight: 750;
+  color: #494949;
+  line-height: 30px;
+  margin-top: 32px;
+  max-width: 456px;
+}
+.Thought_icon {
+  display: flex;
+  gap: 2rem;
+}
+.Thought_icon i {
+  font-size: 5rem;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.Thought {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Contact {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Contact_text h3 {
+  color: #151414;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 3.6rem;
+  font-weight: 770;
+  margin-bottom: 15px;
+}
+.Contact_text p {
+  color: #3b433e;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 750;
+  margin-bottom: 60px;
+}
+.Contact_Input input {
+  border-radius: 165px;
+  border: 1.5px solid #f5f5f5;
+  padding: 19px 166px 19px 20px;
+  background: #fff;
+}
+
+.Contact_Input button {
+  border-radius: 50px;
+  background-color: #64bb47;
+  color: #fff;
+  text-align: center;
+  font-family: Sofia Pro;
+  font-size: 2rem;
+  padding: 15px 32px;
+  margin-bottom: 150px;
+}
+.footer {
+  margin-bottom: 100px;
+}
+.footer_top {
+  display: flex;
+  gap: 15rem;
+  margin-bottom: 114px;
+}
+.footer_left p {
+  font-family: Sharp Sans No1;
+  font-size: 1.6rem;
+  color: #657582;
+  font-weight: 760;
+  margin-top: 34px;
+  max-width: 262px;
+}
+.footer_Cards {
+  display: flex;
+  gap: 11.2rem;
+}
+.footer_Card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer_Card h5 {
+  font-family: Sharp Sans No1;
+  font-size: 2.2rem;
+  color: #2c3847;
+  font-weight: 770;
+}
+.footer_Card a {
+  font-family: Sharp Sans No1;
+  font-size: 1.6rem;
+  color: #657582;
+  font-weight: 760;
+}
+.backg {
+  background: var(
+    --green-gradient,
+    linear-gradient(180deg, #64bb47 0%, #2c9553 100%)
+  );
+}
+.footer_button p {
+  color: #fff;
+  text-align: center;
+  font-family: Sharp Sans No1;
+  font-size: 1.6rem;
+  font-weight: 760;
+}
+.footer_button{
+  padding: 20px;
+}
